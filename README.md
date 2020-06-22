@@ -22,6 +22,9 @@ To run, install python 3 and run...
 
 ```python3 -m pip install -r requirements.txt```
 
+Talk to @botfather on telegram and get a bot key. Input this bot key in place of: BOTKEYBOTKEYBOTKEYBOTKEY
+in the python file at the top.
+
 Then run the bash script on linux...
 
 ```./start```
