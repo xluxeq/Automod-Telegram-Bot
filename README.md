@@ -23,7 +23,7 @@ To run, install python 3 and run...
 ```python3 -m pip install -r requirements.txt```
 
 Talk to @botfather on telegram and get a bot key. Input this bot key in place of: BOTKEYBOTKEYBOTKEYBOTKEY
-in the python file at the top.
+in the python file at the top. Disable private/privacy mode on the bot and set to disabled. This will allow it to read all messages. The bot must also be admin in your group(s).
 
 Then run the bash script on linux...
 
@@ -40,3 +40,4 @@ stop - stops the bot
 repeat - how many times a user must be negative back to back to get muted
 adjust - sensitivity level
 ```
+
