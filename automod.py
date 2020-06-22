@@ -70,12 +70,14 @@ def run(bot, update):
             writepath = 'chats/' + IDS + "/REPEAT"
             with open(writepath, 'w') as owrite:
                 owrite.write(data)
+            update.message.reply_text("Message trigger repeat set...")
         if "/adjust" in update.message.text:
             whitelist = set('0123456789.')
             data = ''.join(filter(whitelist.__contains__, update.message.text))
             writepath = 'chats/' + IDS + "/ADJUST"
             with open(writepath, 'w') as owrite:
                 owrite.write(data)
+            update.message.reply_text("Mood adjustment set...")
     else:
         writepath = 'chats/' + IDS + "/ON"
         if os.path.exists(writepath):
