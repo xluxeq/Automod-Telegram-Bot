@@ -30,3 +30,13 @@ Then run the bash script on linux...
 ```./start```
 
 Or on windows run the python file directly.
+
+
+Command reference:
+
+```
+start - starts the bot
+stop - stops the bot
+repeat - how many times a user must be negative back to back to get muted
+adjust - sensitivity level
+```
