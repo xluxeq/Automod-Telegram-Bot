@@ -7,9 +7,6 @@ It only works on public groups.
 
 If a user says a negative word/sentence at the configurable setting (how many times it repeats in a row/and how negative it sounds) it will mute them for 12 hours.
 
-If it's online you can find it here: @AutoMoodBot
-
-Please host it yourself because I won't have a host soon.
 
 Uses:
 
