@@ -22,9 +22,9 @@ To run, install python 3 and run...
 Talk to @botfather on telegram and get a bot key. Input this bot key in place of: BOTKEYBOTKEYBOTKEYBOTKEY
 in the python file at the top. Disable private/privacy mode on the bot and set to disabled. This will allow it to read all messages. The bot must also be admin in your group(s).
 
-Then run the bash script on linux...
+Then run the python file on linux...
 
-```./start```
+```python3 automod.py```
 
 Or on windows run the python file directly.
 
